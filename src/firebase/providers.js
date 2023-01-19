@@ -21,7 +21,7 @@ export const loginWithGoogle = async() => {
   } catch (error) {
     const errorMessage = error.message;
 
-    return{
+    return {
       ok: false,
       errorMessage,
     }
