@@ -5,3 +5,9 @@ export const chekingAuthentication = (email, password) =>{
     dispatch(checkingCredentials());
   }
 }
+
+export const startGoogleLogin = () => {
+  return (dispatch) => {
+    dispatch(checkingCredentials());
+  }
+}
