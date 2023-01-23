@@ -46,6 +46,8 @@ export const RegisterPage = () => {
 
     if(!isFormValid) return;
 
+    console.log(errorMessage)
+
     dispatach(startRegisterUserWithEmailPassword(fromValues));
   }
 
